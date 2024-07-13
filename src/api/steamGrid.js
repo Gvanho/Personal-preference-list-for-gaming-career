@@ -1,5 +1,6 @@
 import SGDB from 'steamgriddb'
 
+// Need to login https://www.steamgriddb.com/ to get your API key
 const client = new SGDB({
   key: 'put your steam grid API key here',
   baseURL: '/steamgriddb'
